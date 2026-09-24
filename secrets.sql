@@ -20,4 +20,4 @@ FROM dbo.Customers
 WHERE CreatedUtc >= DATEADD(day, -30, SYSUTCDATETIME());
 
 -- Fake credential used only for demo purposes
--- Server=sql-demo-01;Database=AppDb;User Id=etl_svc;Password=NotAReaIP@ss!;
+Server=sql-demo-01;Database=AppDb;User Id=etl_svc;Password=NotAReaIP@ss!;
